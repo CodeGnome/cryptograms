@@ -1,0 +1,15 @@
+/.bundle/
+/.rspec-local
+/.yardoc
+/_yardoc/
+/Gemfile.lock
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tags
+/tmp/
+
+*.~
+*.bak
+*.swp
