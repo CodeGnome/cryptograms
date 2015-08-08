@@ -66,7 +66,7 @@ your terminal when you run the program.
 ### REPL
 
     require 'cryptograms'
-    Cryptogram.new "Foo bar baz. Quux?"
+    c = Cryptogram.new "Foo bar baz. Quux?"
     c.cyphertext
     #=> "BCC SJE SJR. HXXD?"
 
