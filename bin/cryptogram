@@ -12,6 +12,10 @@ warn "#{notices.join ?\n}\n\n"
 # Get plaintext from files, standard input, or command-line arguments,
 # in that order.
 case
+when ARGV[0] == '-h' || ARGV.empty?
+  cmd = File.basename $0
+  msg = "Usage:\n\t#{cmd} -h\n\t#{cmd} <file>\n\t#{cmd} <string ...>"
+  warn msg
 when ARGV[0] && File.exists?(ARGV[0])
   puts Cryptogram.new(File.read ARGV[0]).cyphertext
 when STDIN.tty?
