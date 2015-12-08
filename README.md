@@ -47,7 +47,10 @@ Geneate cryptogram puzzles that:
 
 ## Command-Line Usage
 
+    cryptogram -h
+    cryptogram <file>
     cryptogram <string ...>
+    echo foo | cryptogram
 
 ## Examples
 
