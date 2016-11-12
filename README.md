@@ -11,7 +11,7 @@
 The copyright for the software, documentation, and associated files are
 held by the author.
 
-    Copyright &copy; 2015, 2016 Todd A. Jacobs
+    Copyright © 2015, 2016 Todd A. Jacobs
     All rights reserved.
 
 The AUTHORS file is also included in the source tree.
