@@ -4,7 +4,7 @@ require_relative '../lib/cryptograms'
 
 notices = [
   "Cryptograms v#{Cryptograms::VERSION}",
-  'Copyright © 2015 Todd A. Jacobs',
+  'Copyright © 2015, 2016 Todd A. Jacobs',
   'This program is licensed under GPLv3 or later.',
 ]
 warn "#{notices.join ?\n}\n\n"
