@@ -59,12 +59,14 @@ your terminal when you run the program.
 
 ### Command Line
 
-    $ cryptogram Foo bar baz. Quux?
-    Cryptograms v0.1.0
-    Copyright © 2015 Todd A. Jacobs
+    $ echo 'Foo bar baz. Quux?' | cryptogram
+    Cryptograms v0.3.0
+    Copyright © 2015, 2016 Todd A. Jacobs
     This program is licensed under GPLv3 or later.
 
-    ACC JGU JGQ. MBBD?
+    Foo bar baz. Quux?
+
+    RXX FDI FDG. YQQW?
 
 ### REPL
 
